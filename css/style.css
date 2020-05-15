@@ -783,8 +783,8 @@ a {
 }
 
 .popular-manufacturer li {
-  min-width: 220px;
-  min-height: 145px;
+  min-width: 218px;
+  min-height: 143px;
   display: flex;
   flex-wrap: wrap;
   border: 1px solid #EAEAEA;
@@ -792,4 +792,19 @@ a {
   align-items: center;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.pop-mn-catalog {
+  padding: 11px 47px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  background: #EE3643;
+  color: #ffffff;
+  display: inline-block;
+  margin: 24px 18px 26px 20px;
+}
+
+.inters {
+  margin-bottom: 10px;
 }
