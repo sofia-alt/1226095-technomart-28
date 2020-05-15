@@ -887,6 +887,7 @@ a {
   font-family: 'PT Sans', 'Arial, sans-serif';
   font-size: 13px;
   line-height: 24px;
+  margin: 0;
 }
 
 .list-invisible {
@@ -926,14 +927,13 @@ a {
   width: 950px;
 }
 
-.delivery-text {
+.delivery-text p {
   font-family: 'PT Sans', 'Arial, sans-serif';
   font-size: 13px;
   line-height: 24px;
   width: 280px;
   margin-bottom: 0px;
 }
-
 .delivery-last-p {
   width: 210px;
   margin: 0;
