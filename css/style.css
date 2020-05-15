@@ -787,7 +787,6 @@ a {
   min-height: 143px;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #EAEAEA;
   justify-content: center;
   align-items: center;
   margin-right: 20px;
@@ -805,6 +804,25 @@ a {
   margin: 24px 18px 26px 20px;
 }
 
-.inters {
+.popular-manufacturer a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 218px;
+  min-height: 143px;
+  border: 1px solid #EAEAEA;
+}
+
+.popular-manufacturer a:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.popular-manufacturer a:active {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  opacity: 0.5;
+}
+
+.inters img {
   margin-bottom: 10px;
 }
