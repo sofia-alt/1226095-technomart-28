@@ -423,6 +423,16 @@ a {
   top: 31px;
 }
 
+.materials::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/new.png");
+  width: 60px;
+  height: 59px;
+  top: 0;
+  right: 0;
+}
+
 .tools {
   background: #3BBCE3;
   margin-right: 20px;
@@ -749,9 +759,10 @@ a {
 .new-position::after {
   content: "";
   position: absolute;
-  background-image: url("../img/new.png");
-  width: 60px;
-  height: 59px;
+  background-image: url("../img/svg/catalog-new.svg");
+  background-repeat: no-repeat;
+  width: 69px;
+  height: 69px;
   top: 0;
   right: 0;
 }
