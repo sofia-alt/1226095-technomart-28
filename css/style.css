@@ -946,7 +946,7 @@ a {
 
 .company-more {
   width: 490px;
-  margin-right: 139px;
+  margin-right: 149px;
 }
 
 .info-company h2 {
@@ -966,6 +966,7 @@ a {
 .big-variant {
   margin-top: 24px;
   width: 460px;
+  margin-bottom: 26px;
 }
 
 .info-company {
@@ -1020,7 +1021,7 @@ a {
 
 .contacts-company a {
   display: inline-block;
-  margin-top: 21px;
+  margin-top: 25px;
   margin-left: 2px;
   padding: 10px 34px;
 }
