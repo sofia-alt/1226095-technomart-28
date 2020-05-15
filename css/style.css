@@ -384,9 +384,10 @@ a {
 .scope-block a {
   background: rgba(255, 255, 255, 0.3);
   color: #ffffff;
-  padding: 10px 24px;
   display: inline-block;
   text-transform: uppercase;
+  line-height: 18px;
+  font-size: 14px;
 }
 
 .scope-block a:hover {
@@ -408,8 +409,8 @@ a {
   margin-right: 20px;
 }
 
-.materials a {
-  padding: 9px 15px 11px 22px;
+.materials a, .discounts a {
+  padding: 10px 24px;
 }
 
 .materials::before {
@@ -437,6 +438,10 @@ a {
   margin-right: 20px;
 }
 
+.tools a {
+  padding: 10px 26px;
+}
+
 .tools::before {
   content: "";
   position: absolute;
@@ -449,6 +454,10 @@ a {
 
 .equipment {
   background: #DC91D8;
+}
+
+.equipment a {
+  padding: 10px 30px;
 }
 
 .equipment::before {
@@ -465,6 +474,10 @@ a {
   background: #8ED78F;
 }
 
+.discounts h3 {
+  margin-bottom: 13px;
+}
+
 .discounts::before {
   content: "";
   position: absolute;
@@ -477,6 +490,10 @@ a {
 
 .delivery {
   background: #FFC047;
+}
+
+.delivery a {
+  padding: 10px 36px;
 }
 
 .delivery::before {
@@ -526,13 +543,15 @@ a {
   font-size: 18px;
   line-height: 24px;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .open-catalog {
   display: inline-block;
   color: #ffffff;
-  padding: 11px 46px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 46px;
   background: #EE3643;
   position: absolute;
   left: 25px;
@@ -619,7 +638,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .popular-product h3 {
@@ -629,7 +648,7 @@ a {
   text-transform: uppercase;
   color: #32425C;
   margin: 0;
-  padding: 30px 28px;
+  padding: 29px 28px;
 }
 
 .all-pop-product {
@@ -640,7 +659,7 @@ a {
   background: #EE3643;
   color: #ffffff;
   display: inline-block;
-  margin: 25px 19px;
+  margin: 24px 18px 26px 20px;
 }
 
 .all-pop-product:hover {
@@ -671,7 +690,8 @@ a {
 
 .pop-product-list h3 {
   width: 185px;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 8px;
   padding: 0;
   font-weight: bold;
   font-size: 18px;
@@ -702,7 +722,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-70%, -50%);
+  transform: translate(-68%, -54%);
 }
 
 .new-price {
@@ -717,8 +737,12 @@ a {
   height: 38px;
   display: inline-block;
   text-align: center;
-  padding-top: 10px;
-  margin-left: 20px;
+  margin-left: 28px;
+}
+
+.new-price p {
+  margin-top: 11px;
+  margin-bottom: 0;
 }
 
 .price-last {
