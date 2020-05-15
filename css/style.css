@@ -1050,13 +1050,19 @@ a {
 }
 
 .footer-contacts {
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 .footer-tel-ad {
   font-size: 18px;
   line-height: 24px;
   color: #F3F7F9;
+  margin-top: 29px;
+  margin-left: 2px;
+}
+
+.footer-tel-ad p {
+  margin: 0;
 }
 
 .footer-tel-ad a {
@@ -1065,6 +1071,7 @@ a {
 
 .copyright {
   background: #293449;
+  padding-top: 18px;
 }
 
 .footer-wrapper {
@@ -1107,7 +1114,7 @@ a {
   line-height: 18px;
   color: #FFFFFF;
   width: 227px;
-  margin-right: 160px;
+  margin-right: 163px;
 }
 
 .social-block {
@@ -1138,6 +1145,15 @@ a {
   color: #FFD180;
 }
 
+.connect p, .developer p {
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+.connect {
+  margin-right: 52px;
+}
+
 .social-list a {
   width: 41px;
   height: 41px;
@@ -1147,4 +1163,33 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 220px;
+  height: 63px;
+  background: #EE3643;
+  box-shadow: 0 5px 0 0 #b52933;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-list-1 {
+  width: 545px;
+}
+
+.footer-list-2 {
+  padding-left: 23px;
+  margin-top: 35px;
 }
