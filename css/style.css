@@ -973,6 +973,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-top: 71px;
+  margin-bottom: 70px;
 }
 
 .info-company a {
@@ -1044,3 +1045,106 @@ a {
   padding: 10px 26px;
 }
 
+.footer-index {
+  background: #32425C;
+}
+
+.footer-contacts {
+  margin-right: 50px;
+}
+
+.footer-tel-ad {
+  font-size: 18px;
+  line-height: 24px;
+  color: #F3F7F9;
+}
+
+.footer-tel-ad a {
+  color: #F3F7F9;
+}
+
+.copyright {
+  background: #293449;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-lists {
+  width: 565px;
+  margin-top: 40px;
+}
+
+.footer-lists ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-lists a {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-list-1 a {
+  color: #F1F5F7;
+}
+
+.footer-list-2 a {
+  color: #FFD180;
+}
+
+.footer-up {
+  margin-bottom: 55px;
+}
+
+.secure {
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  width: 227px;
+  margin-right: 160px;
+}
+
+.social-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 133px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-right: 118px;
+}
+
+.connect, .developer {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.connect a, .developer a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFD180;
+}
+
+.social-list a {
+  width: 41px;
+  height: 41px;
+  background-color: #212a3a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
