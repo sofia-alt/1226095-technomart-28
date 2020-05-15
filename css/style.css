@@ -934,6 +934,7 @@ a {
   max-width: 280px;
   margin-bottom: 0px;
 }
+
 .delivery-last-p {
   width: 210px;
   margin: 0;
@@ -941,4 +942,71 @@ a {
 
 .wrapper-pop-product {
   margin-bottom: 50px;
+}
+
+.company-more {
+  width: 490px;
+}
+
+.info-company h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.info-company p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: 'PT Sans', 'Arial, sans-serif';
+}
+
+.big-variant {
+  margin-top: 24px;
+}
+
+.info-company {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 71px;
+}
+
+.info-company a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #EE3643;
+}
+
+.contacts-company {}
+
+.company-friend {
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.company-friend li {
+  position: relative;
+}
+
+.company-friend li::before {
+  content: "";
+  background:url("../img/svg/before.svg") no-repeat;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+}
+
+.contacts-company p {
+  width: 185px;
+}
+
+.map iframe {
+  width: 300px;
+  height: 158px;
 }
