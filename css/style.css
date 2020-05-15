@@ -847,6 +847,8 @@ a {
   line-height: 30px;
   text-transform: uppercase;
   color: #32425C;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .services {
@@ -857,7 +859,7 @@ a {
   font-family: 'PT Sans', 'Arial, sans-serif';
   font-size: 13px;
   line-height: 24px;
-  margin-bottom: 70px;
+  margin-bottom: 69px;
   margin-top: 25px;
 }
 
@@ -881,12 +883,18 @@ a {
   padding: 0;
 }
 
+.services-text p {
+  font-family: 'PT Sans', 'Arial, sans-serif';
+  font-size: 13px;
+  line-height: 24px;
+}
+
 .list-invisible {
   display: none;
 }
 
 .services-list p {
-  padding: 21px 140px 21px 22px;
+  padding: 15px 139px 17px 22px;
   margin: 0;
   font-weight: bold;
   font-size: 21px;
@@ -919,5 +927,18 @@ a {
 }
 
 .delivery-text {
-  width: 315px;
+  font-family: 'PT Sans', 'Arial, sans-serif';
+  font-size: 13px;
+  line-height: 24px;
+  width: 280px;
+  margin-bottom: 0px;
+}
+
+.delivery-last-p {
+  width: 210px;
+  margin: 0;
+}
+
+.wrapper-pop-product {
+  margin-bottom: 50px;
 }
