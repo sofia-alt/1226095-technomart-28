@@ -25,7 +25,7 @@ a {
 
 .header-site {
   background-color: #f3f7f8;
-  padding-bottom: 60px;
+  padding-bottom: 65px;
 }
 
 .header-up {
@@ -83,7 +83,7 @@ a {
   border: none;
   font-size: 18px;
   height: 100%;
-  width: 270px;
+  width: 228px;
   padding-left: 42px;
 }
 
@@ -160,6 +160,7 @@ a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 18px;
 }
 
 .menu-list a {
@@ -167,9 +168,16 @@ a {
   position: relative;
 }
 
-.bookmark svg, .cart svg {
+.bookmark svg {
   position: absolute;
-  left: 20px;
+  left: 21px;
+  top: 10px;
+  opacity: 0.3;
+}
+
+.cart svg {
+  position: absolute;
+  left: 33px;
   top: 13px;
   opacity: 0.3;
 }
@@ -178,7 +186,7 @@ a {
   padding-left: 30px;
   display: inline-block;
   align-items: center;
-  padding: 11px 15px 13px 50px;
+  padding: 9px 15px 10px 45px;
 }
 
 .bookmark:hover svg, .cart:hover svg {
@@ -195,7 +203,7 @@ a {
 }
 
 .cart {
-  padding: 12px 15px 11px 50px;
+  padding: 12px 25px 9px 58px;
 }
 
 .order {
@@ -214,8 +222,8 @@ a {
 }
 
 .header-main {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 44px;
+  margin-bottom: 38px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -243,7 +251,8 @@ a {
   border: 3px solid #FFFFFF;
   background: #F3F7F9;
   display: inline-block;
-  padding: 6px 45px 6px 74px;
+  margin-top: 2px;
+  padding: 6px 45px 4px 70px;
   position: relative;
 }
 
@@ -253,7 +262,7 @@ a {
   width: 19px;
   height: 19px;
   position: absolute;
-  left: 40px;
+  left: 36px;
   top: 10px;
 }
 
@@ -262,14 +271,15 @@ a {
   line-height: 24px;
   color: #32425C;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 
 .header-for-users {
   display: flex;
   flex-wrap: wrap;
   align-content: baseline;
-  margin-left: 64px;
+  margin-left: 68px;
 }
 
 .header-for-users a {
@@ -326,14 +336,14 @@ a {
   background: #32425C;
   box-shadow: 0px 5px 0px 0px #293449;
   padding-left: 22px;
-  padding-right: 27px;
+  padding-right: 15px;
 }
 
 .header-nav-list a {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
-  padding: 20px 28px 19px;
+  padding: 17px 29px 15px;
   display: inline-block;
 }
 
@@ -347,8 +357,8 @@ a {
 }
 
 .scope {
-  margin-top: 60px;
-  margin-bottom: 37px;
+  margin-top: 58px;
+  margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -396,6 +406,10 @@ a {
 .materials {
   background: #FFBF47;
   margin-right: 20px;
+}
+
+.materials a {
+  padding: 9px 15px 11px 22px;
 }
 
 .materials::before {
