@@ -662,11 +662,11 @@ a {
   margin: 24px 18px 26px 20px;
 }
 
-.all-pop-product:hover {
+.all-pop-product:hover, .pop-mn-catalog:hover {
   background: #EE3643;
 }
 
-.all-pop-product:active {
+.all-pop-product:active, .pop-mn-catalog:active {
   background: #BA2732;
 }
 
