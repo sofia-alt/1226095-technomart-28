@@ -946,6 +946,7 @@ a {
 
 .company-more {
   width: 490px;
+  margin-right: 139px;
 }
 
 .info-company h2 {
@@ -964,6 +965,7 @@ a {
 
 .big-variant {
   margin-top: 24px;
+  width: 460px;
 }
 
 .info-company {
@@ -978,6 +980,12 @@ a {
   text-transform: uppercase;
   color: #FFFFFF;
   background: #EE3643;
+  display: inline-block;
+}
+
+.delivery-info {
+  width: 400px;
+  margin-bottom: 3px;
 }
 
 .contacts-company {}
@@ -992,21 +1000,39 @@ a {
 
 .company-friend li {
   position: relative;
+  padding-left: 37px;
+  margin-bottom: 12px;
 }
 
 .company-friend li::before {
   content: "";
-  background:url("../img/svg/before.svg") no-repeat;
+  background: url("../img/svg/before.svg") no-repeat;
   width: 25px;
   height: 2px;
   position: absolute;
+  top: 12px;
+  left: 0px;
 }
 
 .contacts-company p {
   width: 185px;
+  margin-top: 23px;
+  margin-bottom: 34px;
+}
+
+.contacts-company a {
+  display: inline-block;
+  margin-top: 21px;
+  margin-left: 2px;
+  padding: 10px 34px;
 }
 
 .map iframe {
   width: 300px;
   height: 158px;
+}
+
+.company-more a {
+  margin-top: 7px;
+  padding: 10px 26px;
 }
