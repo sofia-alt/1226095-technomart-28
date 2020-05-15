@@ -770,3 +770,26 @@ a {
 .wrapper-pop-products {
   margin-bottom: 70px;
 }
+
+.popular-manufacturer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  align-content: center;
+  width: 980px;
+}
+
+.popular-manufacturer li {
+  min-width: 220px;
+  min-height: 145px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #EAEAEA;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
