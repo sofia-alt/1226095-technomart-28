@@ -1434,3 +1434,115 @@ a {
 .next-p a {
   padding: 10px 32px;
 }
+
+.filter-form {
+  font-family: 'PT Sans', 'Arial, sans-serif';
+  font-size: 15px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.filter-form legend {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.filter-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.filter-form h3 {
+  background: #F7F3EC;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 10px 0 10px 18px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.filter-form ul {
+  list-style: none;
+}
+
+.filter-show {
+  font-family: 'PT Sans', 'Arial, sans-serif';
+  text-transform: uppercase;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  padding: 10px 78px;
+}
+
+.filter-show:hover {
+  cursor: pointer;
+  border: 1px solid #C5C5C5;
+}
+
+.filter-show:active {
+  border: 1px solid #EE3643;
+}
+
+.range-outer-bar {
+  position: relative;
+  background: #D7DCDE;
+  height: 2px;
+  width: 180px;
+}
+
+.range-inner-bar {
+  height: 2px;
+  width: 87%;
+  background: #00ca74;
+}
+
+.max-value-runner, .min-value-runner {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, .2);
+  cursor: pointer;
+}
+
+.max-value-runner {
+  left: 78%;
+}
+
+.bar-wrapper {
+  background-color: #F7F3EC;
+  min-height: 80px;
+  border-radius: 2px;
+}
+
+.price-controls {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.price-controls input {
+  width: 85px;
+  padding: 8px 2px 10px 8px;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-align: center;
+  background-color: #f7f3ec;
+  border: none;
+  border-radius: 3px;
+}
+
+.filter-show span {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+

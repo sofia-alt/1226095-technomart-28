@@ -119,14 +119,19 @@
     </section>
     <section class="full-catalog container">
       <div class="filter-catalog">
-        <form>
+        <form class="filter-form">
           <h3>Фильтр: </h3>
           <fieldset>
             <legend>Цена: </legend>
-            <div>
-              <!--Бегунок-->
+            <div class="bar-wrapper">
+              <div class="range-outer-bar">
+                <div class="range-inner-bar">
+                  <div class="min-value-runner"></div>
+                  <div class="max-value-runner"></div>
+                </div>
+              </div>
             </div>
-            <div>
+            <div class="price-controls">
               <input type="text" name="min-price" id="min-value" placeholder="0">
               <span>—</span>
               <input type="text" name="max-price" id="max-value" placeholder="30000">
@@ -170,7 +175,7 @@
               </li>
             </ul>
           </fieldset>
-          <button type="submit">Показать</button>
+          <button class="filter-show" type="submit">Показать</button>
         </form>
       </div>
       <section>
