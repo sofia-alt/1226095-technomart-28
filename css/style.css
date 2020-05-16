@@ -572,6 +572,12 @@ a {
   height: 266px;
 }
 
+.slyde-2 {
+  background-image: url("../img/slide-2.jpg");
+  width: 620px;
+  height: 266px;
+}
+
 .buttons-tr button {
   border: none;
   width: 22px;
