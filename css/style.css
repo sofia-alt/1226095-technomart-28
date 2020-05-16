@@ -1522,6 +1522,9 @@ a {
   background-color: #F7F3EC;
   min-height: 80px;
   border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .price-controls {
