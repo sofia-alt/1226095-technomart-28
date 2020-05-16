@@ -1468,6 +1468,7 @@ a {
 
 .filter-form ul {
   list-style: none;
+  padding: 0;
 }
 
 .filter-show {
@@ -1579,4 +1580,39 @@ a {
 
 .filter-mn li {
   margin-bottom: 20px;
+}
+
+.filter-nt input[type=radio]+label {
+  padding-left: 37px;
+  padding-top: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-nt input[type=radio]+label::before {
+  background-image: url("../img/svg/radio-off.svg");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  font-size: 26px;
+}
+
+.filter-nt input[type=radio]:checked+label::before {
+  background-image: url("../img/svg/radio-on.svg");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  font-size: 26px;
+}
+
+.filter-nt li {
+  margin-bottom: 22px;
 }
