@@ -916,11 +916,11 @@ a {
 .services-list::before {
   position: absolute;
   content: "";
-  background: url("../img/svg/Object.svg");
+  background: url("../img/shadow.png");
   width: 10px;
   height: 279px;
   top: -30px;
-  right: -1px;
+  right: 0px;
 }
 
 .container-services {
