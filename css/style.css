@@ -1408,11 +1408,25 @@ a {
   display: inline-block;
 }
 
+.padding-list a:hover {
+  border: 1px solid #C5C5C5;
+}
+
+.padding-list a:active {
+  border: 1px solid #EE3643;
+}
+
 .active-p a {
   background: #EE3643;
   border: 1px solid #EE3643;
   color: #ffffff;
 }
+
+.active-p a:hover {
+  cursor: pointer;
+  border: 1px solid #EE3643;
+}
+
 .next-p a {
   padding: 10px 32px;
 }
