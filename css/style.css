@@ -1219,6 +1219,8 @@ a {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .bread-crumbs a {
@@ -1452,8 +1454,20 @@ a {
   border: 0;
   padding: 0;
   margin: 0;
-  margin-bottom: 16px;
-  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 17px;
+}
+
+.filter-mn, .filter-pr {
+  position: relative;
+}
+
+.filter-pr::before, .filter-mn::before {
+  position: absolute;
+  content: "";
+  background: url("../img/svg/fieldset-border.svg");
+  width: 220px;
+  bottom: 0;
+  height: 1px;
 }
 
 .filter-form h3 {
@@ -1469,6 +1483,16 @@ a {
 .filter-form ul {
   list-style: none;
   padding: 0;
+}
+
+.filter-mn ul {
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+
+.filter-nt ul {
+  margin-top: 25px;
+  margin-bottom: 16px;
 }
 
 .filter-show {
@@ -1525,11 +1549,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 12px;
 }
 
 .price-controls {
   margin-top: 10px;
   margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .price-controls input {
@@ -1544,10 +1573,11 @@ a {
   border-radius: 3px;
 }
 
-.filter-show span {
+.price-controls span {
   font-size: 16px;
   line-height: 18px;
   font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold;
 }
 
 .filter-mn input[type=checkbox]:checked+label::before {
@@ -1575,7 +1605,7 @@ a {
 }
 
 .filter-mn input[type=checkbox]+label {
-  padding-left: 37px;
+  padding-left: 35px;
   padding-top: 2px;
   position: relative;
   cursor: pointer;
