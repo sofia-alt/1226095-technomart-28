@@ -1241,6 +1241,10 @@ a {
   left: 20px;
 }
 
+.home-page a {
+  padding: 0;
+}
+
 .perforators {
   background: #F2F6F8;
   min-height: 89px;
