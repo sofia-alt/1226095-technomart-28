@@ -1546,3 +1546,37 @@ a {
   font-family: "PT Sans", "Arial", sans-serif;
 }
 
+.filter-mn input[type=checkbox]:checked+label::before {
+  background-image: url("../img/svg/checkbox-on.svg");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 23px;
+  font-size: 26px;
+}
+
+.filter-mn input[type=checkbox]+label::before {
+  background-image: url("../img/svg/checkbox-off.svg");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23px;
+  height: 23px;
+  font-size: 26px;
+}
+
+.filter-mn input[type=checkbox]+label {
+  padding-left: 37px;
+  padding-top: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-mn li {
+  margin-bottom: 20px;
+}
